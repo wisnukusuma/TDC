@@ -1,0 +1,17 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_delay_line_tdc_behav xil_defaultlib.tb_delay_line_tdc xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 50 differs from formal bit length 49 for port 'tdc_out' [C:/TDC/TDC.srcs/sim_1/new/testbench.v:41]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.delay_line_tdc(N=49)
+Compiling module xil_defaultlib.tb_delay_line_tdc
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_delay_line_tdc_behav

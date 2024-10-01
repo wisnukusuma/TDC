@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_delay_line_tdc_time_synth.v" \
+"../../../../../TDC.srcs/sim_1/new/testbench.v" \
+
+# Do not sort compile order
+nosort

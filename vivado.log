@@ -1,0 +1,696 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Oct  1 09:02:27 2024
+# Process ID: 32164
+# Current directory: D:/WISNU/FPGA/TDC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22228 D:\WISNU\FPGA\TDC\TDC.xpr
+# Log file: D:/WISNU/FPGA/TDC/vivado.log
+# Journal file: D:/WISNU/FPGA/TDC\vivado.jou
+# Running On: EE-49, OS: Windows, CPU Frequency: 1797 MHz, CPU Physical cores: 16, Host memory: 16473 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/WISNU/FPGA/TDC/TDC.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/TDC' since last save.
+INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'D:/WISNU/FPGA/Users/Formulatrix/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store'; using path 'C:/Users/Formulatrix/AppData/Roaming/Xilinx/Vivado/2023.1/xhub/board_store/xilinx_board_store' instead.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/WISNU/FPGA/TDC/TDC.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-151] The current board 'digilentinc.com::cmod_a7-35t:1.2' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 1512.176 ; gain = 296.352
+update_compile_order -fileset sources_1
+synth_design -top delay_line_tdc -part xc7a35tcpg236-1 -lint 
+Command: synth_design -top delay_line_tdc -part xc7a35tcpg236-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2272.305 ; gain = 396.641
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'delay_line_tdc' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1934]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (1#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1934]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:58]
+WARNING: [Synth 8-7071] port 'CI' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:58]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:58]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+INFO: [Common 17-14] Message 'Synth 8-7071' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line_tdc' (2#1) [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 2364.551 ; gain = 488.887
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date         : Tue Oct  1 11:14:12 2024
+| Host         : EE-49 running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++----------+--------------+----------+
+| Rule ID  | # Violations | # Waived |
++----------+--------------+----------+
+| ASSIGN-6 | 1            | 0        |
+| ASSIGN-7 | 1            | 0        |
++----------+--------------+----------+
+
+
+WARNING: [Synth 37-86] [ASSIGN-6]All bits in array 'CO' are not read. First unread bit index is 0. 
+RTL Name 'CO', Hierarchy 'delay_line_tdc', File 'D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v', Line 30.
+WARNING: [Synth 37-90] [ASSIGN-7]Multiple assignments detected on array counter, first multi-driven bit index is 0.
+RTL Name 'counter', Hierarchy 'delay_line_tdc', File 'D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v', Line 29.
+INFO: [Synth 37-85] Total of 2 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2364.551 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 50 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2460.250 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 152 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:30 . Memory (MB): peak = 2460.250 ; gain = 922.590
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/WISNU/FPGA/TDC/TDC.srcs/utils_1/imports/synth_1/delay_line_tdc.dcp with file D:/WISNU/FPGA/TDC/TDC.runs/synth_1/delay_line_tdc.dcp
+launch_runs synth_1 -jobs 8
+[Tue Oct  1 11:14:45 2024] Launched synth_1...
+Run output will be captured here: D:/WISNU/FPGA/TDC/TDC.runs/synth_1/runme.log
+get_net_delays
+ERROR: [Common 17-53] User Exception: No open design. Please open an elaborated, synthesized or implemented design before executing this command.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: delay_line_tdc
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2460.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'delay_line_tdc' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1934]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (0#1) [C:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:1934]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:58]
+WARNING: [Synth 8-7071] port 'CI' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:58]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:58]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'O' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+WARNING: [Synth 8-7071] port 'CYINIT' of module 'CARRY4' is unconnected for instance 'inst' [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+INFO: [Common 17-14] Message 'Synth 8-7071' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7023] instance 'inst' of module 'CARRY4' has 6 connections declared, but only 4 given [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'delay_line_tdc' (0#1) [D:/WISNU/FPGA/TDC/TDC.srcs/sources_1/new/TDC.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2460.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2460.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2460.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2460.250 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 50 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2473.918 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 2539.418 ; gain = 79.168
+9 Infos, 150 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 2539.418 ; gain = 79.168
+get_net_delays
+ERROR: [Common 17-163] Missing value for option 'of_objects', please type 'get_net_delays -help' for usage info.
+get_net_delays start
+ERROR: [Common 17-165] Too many positional options when parsing 'start', please type 'get_net_delays -help' for usage info.
+get_net_delays -help
+get_net_delays
+
+Description: 
+Get the routed or estimated delays in picoseconds on a net from the driver to each load pin.
+
+Syntax: 
+get_net_delays  -of_objects <args> [-regexp] [-nocase] [-patterns <arg>]
+                [-filter <arg>] [-to <args>] [-interconnect_only] [-quiet]
+                [-verbose]
+
+Returns: 
+net_delays
+
+Usage: 
+  Name                  Description
+  ---------------------------------
+  -of_objects           Get 'net_delay' objects of these types: 'net'.
+  [-regexp]             Patterns are full regular expressions
+  [-nocase]             Perform case-insensitive matching. (valid only when 
+                        -regexp specified)
+  [-patterns]           Match the 'net_delay' objects against patterns.
+                        Default: *
+  [-filter]             Filter list with expression
+  [-to]                 Get the delay of the net to the given terminal(s) or 
+                        port(s).
+  [-interconnect_only]  Include only interconnect delays. The default is to 
+                        include the intra-site delay.
+  [-quiet]              Ignore command errors
+  [-verbose]            Suspend message limits during command execution
+
+Categories: 
+Timing, Netlist, Object
+
+Description:
+
+  Get delay objects for the specified nets in the current design, from the
+  driver to each load pin, or to specified load pins, through specific pins.
+
+  The delay object contains properties defining the maximum and minimum
+  delays for the fast and slow process corners. Use the get_property command
+  to extract the property of interest from the delay object. Delay property
+  values on the delay object are specified in picoseconds.
+
+  Note: In most cases the Vivado tools return delay values specified in
+  nanoseconds, but the delay object uses picoseconds.
+
+  The values returned are calculated or estimated depending upon whether the
+  net is routed. Delay values can include the actual delay of routed
+  interconnect, or estimated net delays for unrouted nets. The net delay can
+  also include delay through logic elements or device sites, or just include
+  the interconnect delay.
+
+  Note: To improve memory and performance, the get_* commands return a
+  container list of a single type of objects (e.g. cells, nets, pins, or
+  ports). You can add new objects to the list (using lappend for instance),
+  but you can only add the same type of object that is currently in the list.
+  Adding a different type of object, or string, to the list is not permitted
+  and will result in a Tcl error.
+
+  The get_net_delays command returns the delay objects for the specified
+  nets, or returns an error if it fails.
+
+Arguments:
+
+  -of_objects <arg> - (Required) Get the net delays of the specified net
+  objects. This option can be used to reduce the amount of data returned by
+  the get_net_delays command.
+
+  Note: The -of_objects option requires objects to be specified using the
+  get_* commands, such as get_nets in the case of the get_net_delays command.
+
+  -regexp - (Optional) Specifies that the search <patterns> are written as
+  regular expressions. Both search <patterns> and -filter expressions must be
+  written as regular expressions when this argument is used. Xilinx regular
+  expression Tcl commands are always anchored to the start of the search
+  string. You can add ".*" to the beginning or end of a search string to
+  widen the search to include a substring. See
+  http://perldoc.perl.org/perlre.html for help with regular expression
+  syntax.
+
+  Note: The Tcl built-in command regexp is not anchored, and works as a
+  standard Tcl command. For more information refer to
+  http://www.tcl.tk/man/tcl8.5/TclCmd/regexp.htm.
+
+  -nocase - (Optional) Perform case-insensitive matching when a pattern has
+  been specified. This argument applies to the use of -regexp only.
+
+  -patterns <arg> - (Optional) Match net_delays against the specified
+  patterns. The default pattern is the wildcard `*` which gets a list of all
+  net_delays in the project. More than one pattern can be specified to find
+  multiple pins based on different search criteria.
+
+  Note: You must enclose multiple search patterns in braces, {}, or quotes,
+  "", to present the list as a single element.
+
+  -filter <args> - (Optional) Filter the results list with the specified
+  expression. The -filter argument filters the list of objects returned by
+  get_net_delays based on property values on the delay objects. You can find
+  the properties on an object with the report_property or list_property
+  commands. In the case of the delay object, "NET", "FAST_MAX" and "FAST_MIN"
+  are some of the properties that can be used to filter results.
+
+  The filter search pattern should be quoted to avoid having to escape
+  special characters that may be found in net, pin, or cell names, or other
+  properties. String matching is case-sensitive and is always anchored to the
+  start and to the end of the search string. The wildcard "*" character can
+  be used at the beginning or at the end of a search string to widen the
+  search to include a substring of the property value.
+
+  Note: The filter returns an object if a specified property exists on the
+  object, and the specified pattern matches the property value on the object.
+  In the case of the "*" wildcard character, this will match a property with
+  a defined value of "".
+
+  For string comparison, the specific operators that can be used in filter
+  expressions are "equal" (==), "not-equal" (!=), "match" (=~), and
+  "not-match" (!~). Numeric comparison operators <, >, <=, and >= can also be
+  used. Multiple filter expressions can be joined by AND and OR (&& and ||).
+  The following gets input pins that do NOT contain the "RESET" substring
+  within their name:
+
+    get_pins * -filter {DIRECTION == IN && NAME !~ "*RESET*"} 
+    
+
+  Boolean (bool) type properties can be directly evaluated in filter
+  expressions as true or not true:
+
+    -filter {IS_PRIMITIVE && !IS_LOC_FIXED} 
+    
+
+  -to <args> - (Optional) Specifies the endpoints of nets for delay
+  calculation. Pin, port, and pip objects can be specified as endpoints.
+
+  -interconnect_only - (Optional) Include only interconnect delays to
+  determine the delay on the net due to routing. The default is to also
+  include the intra-site delay into the delay calculation.
+
+  Note: When using get_net_delays to define delay limits for the route_design
+  command -min_delay or -max_delay options, you should use the
+  -interconnect_only option to ensure the specified net delay includes just
+  the interconnect.
+
+  -quiet - (Optional) Execute the command quietly, returning no messages from
+  the command. The command also returns TCL_OK regardless of any errors
+  encountered during execution.
+
+  Note: Any errors encountered on the command-line, while launching the
+  command, will be returned. Only errors occurring inside the command will be
+  trapped.
+
+  -verbose - (Optional) Temporarily override any message limits and return
+  all messages from this command.
+
+  Note: Message limits can be defined with the set_msg_config command.
+
+Examples:
+
+  The following example gets the interconnect delay values for the specified
+  net, and returns it in the form of a delay object:
+
+    report_property -all [lindex [get_net_delays -interconnect_only \  
+    -of_objects [get_nets control_reg[*]]] 16 ] 
+    
+
+  Note: The FAST_MAX, FAST_MIN, SLOW_MAX, and SLOW_MIN properties on the
+  delay object are reported in picoseconds.
+
+See Also:
+
+   *  get_pins
+   *  get_pips
+   *  get_ports
+   *  get_property
+   *  list_property
+   *  report_property
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  1 11:57:52 2024...

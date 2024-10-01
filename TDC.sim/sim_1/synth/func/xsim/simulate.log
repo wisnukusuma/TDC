@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Time = 0 ps, tdc_out = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Time = 0 ps, tdc_out = 00000000000000000000000000000000000000000000000000
+Time = 4200000 ps, tdc_out = 11111111111111111111111111111111111111111111111111
+$finish called at time : 15200 ns : File "C:/TDC/TDC.srcs/sim_1/new/testbench.v" Line 64

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_delay_line_tdc_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_delay_line_tdc" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="109,888 ps"></ZoomStartTime>
+      <ZoomEndTime time="110,083 ps"></ZoomEndTime>
+      <Cursor1Time time="110,050 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="356"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/tb_delay_line_tdc/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_delay_line_tdc/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_delay_line_tdc/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_delay_line_tdc/tdc_out" type="array">
+      <obj_property name="ElementShortName">tdc_out[49:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc_out[49:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_delay_line_tdc/uut/tdc_out_OBUF" type="array">
+      <obj_property name="ElementShortName">tdc_out_OBUF[49:0]</obj_property>
+      <obj_property name="ObjectShortName">tdc_out_OBUF[49:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_delay_line_tdc/uut/CO" type="array">
+      <obj_property name="ElementShortName">CO[199:3]</obj_property>
+      <obj_property name="ObjectShortName">CO[199:3]</obj_property>
+   </wvobject>
+</wave_config>

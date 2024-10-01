@@ -1,0 +1,41 @@
+Time resolution is 1 ps
+Time = 0 ps, tdc_out = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Time = 6470 ps, tdc_out = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00xxxxxx
+Time = 6500 ps, tdc_out = xxxxxxxxxxxxxxxxxxxxxxxxxx0xxxxxxxxxxxxxxx00xxxxxx
+Time = 6530 ps, tdc_out = xxxxxxxxxxxxxxxxxxxxxxxxxx0xxxxxxxxxxxxxxx00xxxxx0
+Time = 6560 ps, tdc_out = xx0000xxxxxxxxxxxxxxxxxxxx0xxxxxxxxxxxxxxx00xxxxx0
+Time = 6560 ps, tdc_out = 0x0000x0xxxxxxxxxxxx0xxxxx0xxxxxxxxxxxxxxx00xxxxx0
+Time = 6570 ps, tdc_out = 0x0000x0x0xx0xxxxxxx0xxxxx0xxxxxxxxxxxxxxx00xxxxx0
+Time = 6580 ps, tdc_out = 0x0000x000xx0xxxxxxx0xxxxx0xxxxxxxxxxxxxxx00xxxxx0
+Time = 6580 ps, tdc_out = 0x0000x000x00xxxxxxx0xxxxx0xxxxxxxxxxxxxxx00xxxxx0
+Time = 6590 ps, tdc_out = 0x0000x000x000xxxxxx0xxxxx0xxxxxxxxxxxxxxx00x00xx0
+Time = 6590 ps, tdc_out = 000000x000x000xxxxxx0xxxxx0xxxxxxxxxxxxxxx00x00xx0
+Time = 6600 ps, tdc_out = 0000000000x000xxxxxx0xxxxx0xxxxxxxxxxxxxxx00x00xx0
+Time = 6600 ps, tdc_out = 0000000000x000xxxxxx0xxxxx0xxxxxxxxxxxxxx000x00xx0
+Time = 6610 ps, tdc_out = 00000000000000xxxxxx0xxxxx0xxxxxxxxxxxxxx000x00xx0
+Time = 6670 ps, tdc_out = 00000000000000xxxxxx0xxxxx0xxxxxxxxxxxxxx000x00x00
+Time = 6670 ps, tdc_out = 00000000000000xx00000xxxxx0xxxxx00x0x00xx000x00x00
+Time = 6680 ps, tdc_out = 00000000000000xx00000xxxxx0xxxxx00x0x000x000x00000
+Time = 6700 ps, tdc_out = 000000000000000x00000xxxxx0xxxxx00000000x000x00000
+Time = 6740 ps, tdc_out = 000000000000000x00000x0xxx0xxxxx00000000x000x00000
+Time = 6750 ps, tdc_out = 000000000000000x00000x0xxx0x0xxx00000000x000x00000
+Time = 6760 ps, tdc_out = 000000000000000x00000x0xxx0x00xx00000000x000x00000
+Time = 6770 ps, tdc_out = 000000000000000000000x0xxx0x00xx00000000x000x00000
+Time = 6870 ps, tdc_out = 00000000000000000000000xxx0x00xx00000000x000x00000
+Time = 6940 ps, tdc_out = 00000000000000000000000x0x0x00xx00000000x000x00000
+Time = 6950 ps, tdc_out = 00000000000000000000000x000x00xx00000000x000x00000
+Time = 7010 ps, tdc_out = 00000000000000000000000x000x00xx00000000x000000000
+Time = 7030 ps, tdc_out = 00000000000000000000000x000x00xx000000000000000000
+Time = 7040 ps, tdc_out = 000000000000000000000000000x00xx000000000000000000
+Time = 7050 ps, tdc_out = 0000000000000000000000000000000x000000000000000000
+Time = 7050 ps, tdc_out = 00000000000000000000000000000000000000000000000000
+WARNING: "C:/Xilinx/Vivado/2023.1/data/verilog/src/unisims/FDCE.v" Line 170: Timing violation in scope /tb_delay_line_tdc/uut/tdc_out_reg[5]/TChk170_841 at time 115202 ps $setuphold (posedge C,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,C_dly,D_dly)  $setup violation detected. Time: 115202 ps, Data Event Time Stamp: -9223372036854775807 ps, Ref Event Time Stamp: 115090 ps, Limit: -45 ps
+WARNING: "C:/Xilinx/Vivado/2023.1/data/verilog/src/unisims/FDCE.v" Line 170: Timing violation in scope /tb_delay_line_tdc/uut/tdc_out_reg[5]/TChk170_841 at time 115202 ps $setuphold (posedge C,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,C_dly,D_dly)  $hold violation detected. Time: 115202 ps, Ref Event Time Stamp: 115090 ps, Data Event Time Stamp: 115202 ps, Limit: 241 ps
+WARNING: "C:/Xilinx/Vivado/2023.1/data/verilog/src/unisims/FDCE.v" Line 170: Timing violation in scope /tb_delay_line_tdc/uut/tdc_out_reg[6]/TChk170_841 at time 115316 ps $setuphold (posedge C,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,C_dly,D_dly)  $setup violation detected. Time: 115316 ps, Data Event Time Stamp: -9223372036854775807 ps, Ref Event Time Stamp: 115089 ps, Limit: -45 ps
+WARNING: "C:/Xilinx/Vivado/2023.1/data/verilog/src/unisims/FDCE.v" Line 170: Timing violation in scope /tb_delay_line_tdc/uut/tdc_out_reg[6]/TChk170_841 at time 115316 ps $setuphold (posedge C,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,C_dly,D_dly)  $hold violation detected. Time: 115316 ps, Ref Event Time Stamp: 115089 ps, Data Event Time Stamp: 115316 ps, Limit: 241 ps
+Time = 121620 ps, tdc_out = 00000000000000000000000000000000000000000000000001
+Time = 121680 ps, tdc_out = 00000000000000000000000000000000000000000000001001
+Time = 121690 ps, tdc_out = 00000000000000000000000000000000000000000000011001
+Time = 121760 ps, tdc_out = 00000000000000000000000000000000000000000000011011
+Time = 121770 ps, tdc_out = 00000000000000000000000000000000000000000000011111
+$finish called at time : 220050 ps : File "C:/TDC/TDC.srcs/sim_1/new/testbench.v" Line 64
